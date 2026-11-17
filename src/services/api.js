@@ -1,6 +1,7 @@
 import axios from 'axios';
+import { API_BASE_URL } from './apiConfig'; // apiConfig.js ഇതേ ഫോൾഡറിൽ തന്നെയുണ്ടെന്ന് ഉറപ്പാക്കുക
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = API_BASE_URL;
 
 const api = axios.create({
     baseURL: API_BASE,

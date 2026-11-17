@@ -1,13 +1,13 @@
 import axios from 'axios';
+import { API_BASE_URL } from './apiConfig'; // ✅ ഇത് കൂടി ചേർക്കുക
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = API_BASE_URL; // ✅ ഇവിടെ പുതിയ വേരിയബിൾ കൊടുക്കുക
 
 // Create axios instance
 const api = axios.create({
     baseURL: API_BASE,
     timeout: 10000,
 });
-
 // Add response interceptor to stop infinite 404 loops
 api.interceptors.response.use(
     (response) => response,
