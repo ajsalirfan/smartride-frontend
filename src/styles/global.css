@@ -1,0 +1,221 @@
+/* ==================== IMAGE BACKGROUND STYLES ==================== */
+
+/* Login Page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: url('https://wallpaperaccess.com/full/9117365.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+/* User Dashboard */
+.user-dashboard {
+    background: url('https://wallpaperaccess.com/full/9117339.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Admin Dashboard */
+.admin-dashboard {
+    background: url('https://wallpaperaccess.com/full/9117365.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Staff Dashboard */
+.staff-dashboard {
+    background: url('https://wallpaperaccess.com/full/9117365.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* ==================== SMALL TRANSPARENT LOGIN FORM ==================== */
+
+.login-form {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 
+        0 15px 35px rgba(0, 0, 0, 0.3),
+        0 0 0 1px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 321px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Brand Header */
+.brand-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.brand-logo {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.brand-title {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5px;
+    letter-spacing: -0.5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.brand-subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px; /* Same as Sign In button */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(10px);
+    height: 44px; /* Same height as Sign In button */
+    box-sizing: border-box;
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    backdrop-filter: blur(10px);
+    height: 44px; /* Same height as input fields */
+}
+
+.login-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-1px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-btn:active {
+    transform: translateY(0);
+}
+
+/* Links */
+.login-links {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.login-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.login-links a:hover {
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Error Message */
+.error-message {
+    background: rgba(255, 107, 107, 0.8);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+@media (max-width: 768px) {
+    .login-container {
+        padding: 15px;
+    }
+    
+    .login-form {
+        margin: 10px;
+        padding: 25px 20px;
+        max-width: 340px;
+    }
+    
+    .brand-title {
+        font-size: 1.6em;
+    }
+    
+    .brand-logo {
+        font-size: 2.2em;
+    }
+}
+
+
+

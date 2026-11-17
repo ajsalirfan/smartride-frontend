@@ -1,0 +1,131 @@
+/* =====================================================
+   SMARTRIDE STAFF PANEL – COMPLETE TEXT VISIBILITY FIX
+   (LIGHT + DARK THEME SAFE)
+===================================================== */
+
+/* ---------- GLOBAL FORCE VISIBILITY ---------- */
+.staff-panel-container,
+.staff-panel-container * {
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-shadow: none !important;
+}
+
+/* ---------- BASE TEXT COLORS (LIGHT MODE) ---------- */
+.staff-panel-container {
+  color: #212529 !important;
+}
+
+.staff-panel-container h1,
+.staff-panel-container h2,
+.staff-panel-container h3,
+.staff-panel-container h4,
+.staff-panel-container h5,
+.staff-panel-container h6 {
+  color: #0f172a !important;
+  font-weight: 600;
+}
+
+.staff-panel-container p,
+.staff-panel-container span,
+.staff-panel-container small,
+.staff-panel-container div,
+.staff-panel-container label {
+  color: #212529 !important;
+}
+
+/* ---------- BOOTSTRAP MUTED / OPACITY OVERRIDES ---------- */
+.text-muted,
+.opacity-25,
+.opacity-50,
+.opacity-75 {
+  opacity: 1 !important;
+  color: #495057 !important;
+}
+
+/* ---------- CARD FIX ---------- */
+.card,
+.card-body,
+.card-title,
+.card-text {
+  color: #212529 !important;
+}
+
+/* ---------- DROPDOWN / NOTIFICATION FIX ---------- */
+.dropdown-menu,
+.dropdown-item,
+.notification-item {
+  color: #212529 !important;
+}
+
+.notification-item small {
+  color: #6c757d !important;
+}
+
+/* ---------- MODAL FIX ---------- */
+.modal-content,
+.modal-header,
+.modal-body,
+.modal-footer,
+.modal-title {
+  color: #212529 !important;
+}
+
+/* ---------- FORM FIX ---------- */
+label,
+.form-label {
+  color: #212529 !important;
+  font-weight: 500;
+}
+
+input,
+textarea,
+select {
+  color: #212529 !important;
+}
+
+::placeholder {
+  color: #6c757d !important;
+  opacity: 1 !important;
+}
+
+/* ---------- TABLE FIX ---------- */
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  color: #212529 !important;
+}
+
+/* ---------- ALERT / BADGE FIX ---------- */
+.alert,
+.alert-heading {
+  color: #212529 !important;
+}
+
+.badge {
+  opacity: 1 !important;
+}
+
+/* ---------- DARK THEME SUPPORT ---------- */
+[data-theme="dark"] .staff-panel-container {
+  color: #e5e7eb !important;
+  background: #0f172a;
+}
+
+[data-theme="dark"] .staff-panel-container * {
+  color: #e5e7eb !important;
+}
+
+[data-theme="dark"] .text-muted {
+  color: #9ca3af !important;
+}
+
+[data-theme="dark"] .card,
+[data-theme="dark"] .modal-content,
+[data-theme="dark"] .dropdown-menu {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+}

@@ -1,0 +1,25 @@
+.booking-modal .modal-content {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.booking-modal .modal-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+}
+
+.estimate-box {
+  background: #f4f9ff;
+  border: 1px solid #d8e8ff;
+  color: #333;
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #4caf50, #66bb6a);
+  border: none;
+}
+
+.btn-success:disabled {
+  background: #c9c9c9;
+}

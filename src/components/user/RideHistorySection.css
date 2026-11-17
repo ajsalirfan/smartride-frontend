@@ -1,0 +1,19 @@
+.ride-history-section {
+  background-color: #f9fafc;
+}
+
+.ride-item {
+  background: #ffffff;
+  border: 1px solid #e3e6eb;
+  transition: all 0.2s ease;
+}
+
+.ride-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.badge-light {
+  background: #eef3ff !important;
+  font-size: 0.75rem;
+}

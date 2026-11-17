@@ -1,0 +1,33 @@
+.vehicle-list-section {
+  background-color: #f9fafc;
+  min-height: 100vh;
+  padding-top: 120px;
+}
+
+.vehicle-card {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  background: #ffffff;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.vehicle-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.form-control,
+.form-select {
+  border-radius: 50px !important;
+}
+
+button.btn-outline-danger {
+  border-radius: 50px !important;
+}
+
+.text-muted {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,50 @@
+.navbar-light {
+  background-color: #ffffff !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+input.form-control {
+  border-radius: 50px !important;
+  border: 1px solid #ddd !important;
+}
+
+button.btn-outline-primary {
+  border-radius: 50px !important;
+}
+
+.dropdown-menu {
+  border: none;
+  padding: 10px;
+}
+
+.dropdown-item {
+  border-radius: 8px;
+  transition: background 0.2s ease-in-out;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f4ff;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    margin-bottom: 10px;
+  }
+
+  form.d-flex {
+    width: 100% !important;
+  }
+}

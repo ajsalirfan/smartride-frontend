@@ -1,0 +1,14 @@
+.notification-section {
+  background-color: #f9fafc;
+}
+
+.notification-alert {
+  border: 1px solid #e5e8ee;
+  border-radius: 12px;
+  font-size: 0.95rem;
+}
+
+.notification-alert.unread {
+  background: #eef3ff;
+  border-left: 5px solid #007bff;
+}
