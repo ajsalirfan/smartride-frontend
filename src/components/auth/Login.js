@@ -80,7 +80,7 @@ export default function Login() {
 
         // Redirect logic
         if (data.user.is_superuser || data.user.user_type === "admin") {
-          window.location.href = "http://127.0.0.1:8000/smartride-admin/";
+          window.location.href = "https://smartride-backend-obsq.onrender.com/smartride-admin/";
           return;
         }
 
